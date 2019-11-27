@@ -113,9 +113,13 @@ ul {
 
 /* ******** CUSTOMIZING CALENDAR **********  */
 
+#calendar {
+  background: #C0C0C0;
+}
+
 /* Non holiday/weekend style  */
 .cal-cell1 {
-  color: #C0C0C0;
+  color: #002357;
 }
 
 
@@ -127,9 +131,9 @@ div.cal-day-hour {
 #cal-day-box {
   /* padding-right: 1%; */
   /* padding-left: 1%; */
-  font-weight: 800;
-  color: #C0C0C0;
-  background: #000080;
+  /* font-weight: 800; */
+  /* color: #C0C0C0; */
+  /* background: #000080; */
 }
 
 .cal-day-hour-part {
@@ -529,13 +533,13 @@ div.cal-day-hour {
 }
 .cal-year-box .row-fluid:hover,
 .cal-row-fluid:hover {
-  background-color: #9de00c;
+  background-color: white;
 }
 .cal-month-day {
   height: 100px;
 }
 [class*="cal-cell"]:hover {
-  background-color: #021db6;
+  background-color: #C0C0C0;
 }
 .cal-year-box [class*="span"],
 .cal-month-box [class*="cal-cell"] {
@@ -590,19 +594,19 @@ span[data-cal-date]:hover {
   cursor: default;
 }
 .cal-day-today {
-  background-color: #00812b;
+  background-color: #9de00c;
 }
 .cal-day-today span[data-cal-date] {
-  color: #C0C0C0;
+  color: #00812b;
 }
 .cal-month-box .cal-day-today span[data-cal-date] {
   font-size: 1.9em;
 }
 .cal-day-holiday span[data-cal-date] {
-  color: #9de00c;
+  color: #00812b;
 }
 .cal-day-weekend span[data-cal-date] {
-  color: #9de00c;
+  color: #00812b  ;
 }
 #cal-week-box {
   border: 1px solid #e1e1e1;
